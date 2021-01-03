@@ -1,0 +1,197 @@
+* {
+  border: 0;
+  margin: 0rem;
+  font-family: Quicksand;
+}
+
+.darkmode {
+  background-color: black;
+  color: white;
+}
+/* Navbar */
+
+#navbar ul {
+  padding: 1rem;
+  background-color: #000;
+  position: relative;
+  list-style-type: none;
+  text-align: center;
+}
+
+#navbar ul il {
+  display: inline;
+}
+
+#navbar ul li h1 {
+  animation: color-change 4s infinite;
+  font-weight: bold;
+  font-size: 2.25rem;
+}
+
+#navbar ul li p {
+  color: #fff;
+  font-weight: normal;
+  font-style: italic;
+}
+
+#navbar ul li button {
+  float: right;
+}
+
+@keyframes color-change {
+  0% {
+    color: #fff;
+  }
+
+  50% {
+    color: #ff3333;
+  }
+
+  100% {
+    color: #fff;
+  }
+}
+
+/* HEADER */
+
+.container {
+  margin-top: 2rem;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  overflow: auto;
+}
+
+/* IMG */
+
+.box_img {
+  position: relative;
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+/* PALLINE */
+
+svg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#pallina_1 {
+  fill: red;
+  stroke: #000;
+  stroke-width: 3px;
+  transform: translate(265px, 290px);
+}
+
+#pallina_2 {
+  fill: blue;
+  stroke: #000;
+  stroke-width: 3px;
+  transform: translate(145px, 290px);
+}
+
+#pallina_3 {
+  fill: yellow;
+  stroke: #000;
+  stroke-width: 3px;
+  transform: translate(185px, 240px);
+}
+
+#pallina_4 {
+  fill: brown;
+  stroke: #000;
+  stroke-width: 3px;
+  transform: translate(195px, 120px);
+}
+
+#pallina_5 {
+  fill: orange;
+  stroke: #000;
+  stroke-width: 3px;
+  transform: translate(245px, 160px);
+}
+#pallina_6 {
+  fill: cyan;
+  stroke: #000;
+  stroke-width: 3px;
+  transform: translate(285px, 400px);
+}
+
+#pallina_7 {
+  fill: purple;
+  stroke: #000;
+  stroke-width: 3px;
+  transform: translate(105px, 380px);
+}
+
+#pallina_8 {
+  fill: pink;
+  stroke: #000;
+  stroke-width: 3px;
+  transform: translate(185px, 415px);
+}
+
+/* ALBERO */
+
+img {
+  max-width: 520px;
+  max-height: 520px;
+}
+
+/* BTN */
+
+.box_btn {
+  margin-top: 1.5rem;
+}
+
+.box_btn button {
+  position: relative;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -o-transform: translate(-50%);
+  transform: translate(-50%);
+  transform: translate(-50%);
+}
+
+.btn {
+  background-color: red;
+  border: 2px solid red;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #000;
+  background-color: #fff;
+  border: 2px solid rgb(151, 25, 25);
+}
+
+/* TESTO */
+
+.box_testo {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.box_testo h3 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.box_testo p {
+  font-size: 1rem;
+}
